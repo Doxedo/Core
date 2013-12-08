@@ -2,6 +2,7 @@
     "name": "doxedo/core",
     "description": "Doxedo core and commmand-line tools",
     "homepage": "http://www.github.com/Doxedo/Core",
+    "license": "MIT",
     "keywords": ["php", "doxedo", "core"],
     "type": "library",
     "minimum-stability": "dev" ,
