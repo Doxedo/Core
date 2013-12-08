@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\Application;
+
+
+require_once(__DIR__ . "/../vendor/autoload.php");
+
+$application = new Application('Doxedo Console Tool', '1.0.0');
+$application->setCatchExceptions(true);
+$application->add(new \Doxedo\Core\Command\ProjectBuildCommand());
+//$application->add(new \Doxedo\Core\Command\IndexHelpCommand());
+//$application->add(new \Doxedo\Core\Command\ProjectL10nCommand());
+$application->run();

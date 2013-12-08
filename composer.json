@@ -1,0 +1,20 @@
+{
+    "name": "doxedo/core",
+    "description": "Doxedo core and commmand-line tools",
+    "homepage": "http://www.github.com/Doxedo/Core",
+    "keywords": ["php", "doxedo", "core"],
+    "type": "library",
+    "minimum-stability": "dev" ,
+    "require": {
+        "symfony/console": "2.4.*@dev",
+        "monolog/monolog": "1.6.*@dev",
+        "dflydev/markdown": "1.0.*@dev",
+        "mustache/mustache": "dev-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Doxedo\\": "src/"
+        }
+    },
+    "bin": ["bin/doxedo"]
+}
